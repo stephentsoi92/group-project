@@ -46,11 +46,13 @@ $("#happy").on("click", function () {
 
     var emotion =happyArray[0]
 
-    buttonSwitch();
+    
 
     apiCall(emotion);
 
-    
+()
+
+    buttonSwitch();
 
 
 });
@@ -60,11 +62,11 @@ $("#sad").on("click", function () {
 
     var emotion =sadArray[0]
 
-    buttonSwitch();
+    
 
     apiCall(emotion);
 
-
+    buttonSwitch();
     
 
 
