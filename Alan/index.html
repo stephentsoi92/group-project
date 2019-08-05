@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-6 App_response">
-                        <img src="http://inbliss01.com/wp-content/uploads/2016/05/hayf-1024x1024.jpg" class="display">
+                        <img src="" height="200" alt="Image preview..." class="img-url">
                     </div>
                 </div>
             </div>
@@ -28,6 +28,7 @@
                     <div class="col-6 align-self-center" id="buttons">
                         <button type="button" class="btn btn-primary" id="happy">Happy</button>
                         <button type="button" class="btn btn-danger" id="sad">Sad</button>
+                        <input type="file" onchange="previewFile()"><br>
                     </div>
                 </div>
             </div>
@@ -46,11 +47,38 @@
             <!-- JQuery google Start -->
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <!-- JQuery google End -->
+              <!-- Firebase Core JavaScript Link -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+  <!-- Specific Firebase products we want (Database) -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+  <!-- firebase cloud storage -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-storage.js"></script>
             <!-- Local Java Start -->
-                <script src="faceapp.js"></script>
+                <script src="recog.js"></script>
             <!-- Local Java End -->
         <!-- javaScrip End -->
 
     </body><!-- body end -->
 
 </html><!-- html end -->
+<!-- div >
+          <div class="subheading mb-5">The App that helps you manage your mood. </div>
+          <p class="lead mb-5"><span class="text-primary">Click one of the icons below to let us know how you feel.</span>  We will surprise you with a range of entertainment options that match your mood. To navigate through the entertainment options, just use the sidebar to your left.  Moody? Changing your mood is easy! <span class="text-primary">Click the emotion or the Icon to your left to come back here</span></p>
+          <div class="emotion-icons mb-5">
+            <a>
+              <i class="fas fa-smile mood" value="happy"></i>
+            </a>
+            <a>
+              <i class="fas fa-sad-tear mood" value="sad"></i>
+            </a>
+            <a>
+              <i class="fas fa-angry mood" value="angry"></i>
+            </a>
+            <a>
+              <i class="fas fa-meh-blank mood" value="calm"></i>
+            </a>
+          </div>
+          <div class="text-md-right">
+            <span>hello</span>
+          </div>
+        </div> -->
